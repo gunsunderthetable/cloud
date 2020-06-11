@@ -1,0 +1,37 @@
+# ignore cache folder
+/silverstripe-cache/
+
+# ignore all environment files
+_ss_environment.php
+
+# ignore build tools
+/tools/phing-metadata
+
+# ignore composer vendor folder
+/vendor/
+/assets/
+/blog/
+/cms/
+/event_calendar/
+/framework/
+/gallery/
+/gridfield-betterbuttons/
+/gridfieldextensions/
+/hero_slider/
+/recaptcha/
+/reports/
+/segment-field/
+/siteconfig/
+/sortablefile/
+/SortableGirdField/
+/spamprotection/
+/userforms/
+/widgets/
+_ss_environment.php
+.htaccess
+cloudmyinfo.php
+index.php
+install.php
+web.config
+README.md
+
