@@ -1,0 +1,28 @@
+/* 
+    Document   : editor
+    Created on : 14-Jan-2012, 15:14:33
+    Author     : User
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+.purple {
+    color:purple;
+}
+
+.green {
+    color:green;
+}
+
+.yellow {
+    color:yellow;
+}
+
+.white {
+    color:white;
+}

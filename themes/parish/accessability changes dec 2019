@@ -1,0 +1,27 @@
+Changed search include templates.
+Changed search labelling - (NB still no visible search label).
+Changed cloudbox page template controlling links from boxes (added 'link to..' to comply).
+Changed blog tmplate includes to have unique readmore links.
+Changed blog archive widget to use h2 not h3 (currently not in shared files).
+Change needed to calendar mnth jumper and year selectors will need some javascript to add descriptions and roles.
+Members page is ok.
+Need to check classifieds.
+Changed Document Search Page module -(added labels to form elements and changes to CSS).
+Skip to main content still gets a warning even though this code is present and works as expected.
+
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000"
+    },
+    "button": {
+      "background": "#f1d600"
+    }
+  },
+  "showLink": false
+});
+</script>

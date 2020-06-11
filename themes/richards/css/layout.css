@@ -1,0 +1,288 @@
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('../fonts/bebas-neue/BebasNeue-webfont.eot');
+	src: local('☺'), url('../fonts/bebas-neue/BebasNeue-webfont.woff') format('woff'), url('../fonts/ballpark/BebasNeue-webfont.ttf') format('truetype'), url('../fonts/ballpark/BebasNeue-webfont.svg#webfontEhA0FXUy') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'ChunkFive';
+    src: url('../fonts/chunkfive/Chunkfive-webfont.eot');
+    src: url('../fonts/chunkfive/Chunkfive-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/chunkfive/Chunkfive-webfont.woff') format('woff'),
+         url('../fonts/chunkfive/Chunkfive-webfont.ttf') format('truetype'),
+         url('../fonts/chunkfive/Chunkfive-webfont.svg#ChunkFiveRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background:#F08E3B;
+}
+
+body {
+    background:#F08E3B url(../images/repeat.gif) repeat-x top left;
+    font-family:"Open Sans", sans-serif;
+    color: #222;
+    margin:0;
+}
+
+#PageWrap {
+    padding:0 1%;
+}
+
+.container {
+    position: relative;
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+img.left {
+    float:left;
+    padding:6px 24px 18px 0;
+}
+
+img.right {
+    float:right;
+    padding:6px 0 18px 24px;
+}
+
+#header{
+	height:150px;
+    padding:0;
+    position:relative;
+}
+
+#Masthead {
+    position: relative;
+    height:140px;
+    background: url(../images/masthead.gif) no-repeat top left;
+    background-size: 90%;
+    background-position: center;
+    border: none;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em {
+    font-style: italic;
+}
+
+/* wrap the slider and the first two columns */
+#leftWrapper {
+    float:left;
+}
+/* page structure */
+#mainContent {
+    width:72%;
+    float:right;
+}
+
+#mainImageWrapper {
+    margin-bottom:12px;
+}
+/*sidebar*/
+
+#Sidebar ul {
+    margin:0;
+    padding:0;
+}
+#sideContent {
+    width:26%;
+    float:left;
+}
+
+#content #sideContent li {
+       list-style: none;
+       margin-left:0;
+}
+
+/*--------match styles for editor css */
+.purple {
+    color:purple;
+}
+.green {
+    color:#39BA4A;
+}
+.yellow {
+    color:yellow;
+}
+.white {
+    color:white;
+}
+
+/* LINKS
+ * ----------------------------------------- */
+a, a:visited {
+    color: white;
+    text-decoration: none;
+   /* border-bottom: 1px solid #F7C516;*/
+}
+
+a:hover {
+    color:silver;
+    text-decoration:underline;
+}
+
+#content li {
+       list-style: disc;
+       margin-left:18px;
+}
+#content ul {
+        margin-bottom:8px;
+}
+
+/* PARAGRAPHS
+ * ----------------------------------------- */
+p {
+    line-height: 1.5;
+    margin: 0 0 16px;
+}
+
+/*-------------------------------image gallery lister 2020 ---------------------------------*/
+#imageGallerytLister {
+    width:100%;
+    float:left;
+}
+#imageGallerytLister ul {
+    margin:0;
+    padding:0;
+}
+#imageGallerytLister ul li{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+}
+#imageGallerytLister ul li img {
+    width:23%;
+    margin:0 1% 12px 1%;
+    float:left;
+}
+#imageGallerytLister ul li img:hover {
+    opacity:0.8;
+}
+
+/* HEADINGS
+ * ----------------------------------------- */
+h1, h2, h3, h4 {
+    font-family:chunkfive, georgia, serif;
+    margin: 0 0 4px;
+    color: black;
+   
+}
+#content h1 {
+    font-size:2.4em;    
+    margin-bottom:12px;
+}
+h2{
+    font-size:1.8em;
+}
+
+h3 {
+    font-size:1.4em;
+    margin: 0 0 16px;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin: 0 0 4px;
+}
+
+
+/* SUB NAV
+ * ------------------------------------------------- */
+#subNav {
+    margin-bottom: 20px;
+}
+
+#subNav li {
+    margin-bottom: 6px;
+}
+
+#subNav a {
+    font-family:chunkfive, georgia, serif;
+    text-transform:uppercase;
+    font-size:1.4em;
+    display: block;
+    padding: 8px 10px;
+    background: #AA4E2B;
+    color:white;
+}
+
+#content #subNav a:hover, #subNav a.current {
+    text-decoration:none;
+    background-color: black;
+    color: #F08E3B;
+}
+
+
+/* CONTENT
+ * ------------------------------------------------- */
+#content {
+    padding: 20px 0;
+    min-height:400px;
+}
+
+
+/* FOOTER
+ * ------------------------------------------------- */
+#footer {
+    background-color:#AA4E2B ;
+    width:100%;
+    margin:0 auto;
+    height: 36px;
+}
+
+#footer p {
+    color:silver;
+    font-size:0.9em;
+    padding:0;
+    margin:8px 0 0 12px;
+}
+
+p.bottom-left a, p.contactMe a {
+    color:white;
+}
+#footer-bottom .container .bottom-left a:hover, #footer-bottom .container .contactMe a:hover {
+    text-decoration:underline;
+}
+.bottom-left {
+    float:left;
+}
+
+#sideContent h3 {
+    padding:0;
+    margin-bottom:8px;
+}
+
+@media (max-width: 960px) {
+    .desktop {display:none;}
+    .tablet {display:block;}
+    .mobile {display:block;}
+    #imageGallerytLister ul li img {width:30%;}
+   .pageContent img {max-width:60%;height:auto;padding-top:5px;} 
+    .mobileHeaderPanel {height:auto;}
+    #mobileHeaderText, #mobileHeaderText.backgrounded,#mobileHeaderText.withLogo {width:100%;text-align:center;background:transparent;padding:0;}
+    #mobileHeaderTools {width:100%;margin-top:0;}
+    #mainNav {display:none;}
+    .pageContent,.rightPanel {width:100%;}
+    #breadBox {margin-left:0;}
+    a.mobileNav {display:block;position:absolute;left:2%;top:20px;}
+    #subNav a {font-size:1em;}
+}
+
+@media (max-width: 860px) {
+    #imageGallerytLister ul li img {width:47%;}
+
+}

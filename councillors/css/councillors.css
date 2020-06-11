@@ -1,0 +1,48 @@
+/*-------------------------------councillors---------------------------------------------*/
+#councillors{
+    width:100%;
+    padding:26px 0;
+}
+.councillor {
+    width:100%;
+    margin-bottom:25px;
+}
+
+.councillor img {
+    padding:12px;
+    background:white;
+    float:left;
+    width:30%;
+    height:auto;
+}
+
+.councillorText {
+    float:right;
+    width:65%;
+}
+
+.councillorText h2 {
+    margin:0;
+    padding:0 0 12px 0;
+}
+
+h2#staffIntro {
+    border-top:2px solid silver;
+    margin-top:26px;
+    padding-top:26px;
+
+}
+
+/*-----------------------------------------------mobile versions-----------------------------------------------*/
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 960px) {
+}
+
+
+@media (max-width: 650px) {
+    .councillorText {width:60%;}    
+
+}

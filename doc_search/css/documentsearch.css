@@ -1,0 +1,58 @@
+
+/*------------------------------ document search controls ----------------------------------------------*/
+#documentSearchWrap {
+    width:100%;
+    height:auto;
+    position:relative;
+    margin-top:40px;
+}
+
+#documentSearchWrap .middleColumn {
+    float:left;
+    width:80%;
+    position:relative;
+}
+#documentSearchWrap input[type="text"] {
+    width:85%;
+}
+
+#documentSearchWrap .Actions {
+    position:absolute;
+    top:0;
+    right:10%;
+    width:13%;
+}
+#documentSearchWrap label {
+    padding-top:8px;
+    float:left;
+    width:10%;
+}
+ul#SearchResults {
+}
+
+.pageContent ul#SearchResults.documentSearch li {
+    list-style-type:none;
+    padding:0;
+    margin-left:0;
+    line-height:1.6;
+}
+
+.pageContent ul#SearchResults.documentSearch li h2 {
+    margin-top:18px;
+}
+.pageContent ul#SearchResults.documentSearch p {
+    margin-bottom:3px;
+}
+/*-----------------------------------------------mobile versions-----------------------------------------------*/
+@media (max-width: 1200px) {
+
+}
+
+@media (max-width: 960px) {
+}
+
+
+@media (max-width: 650px) {
+    .councillorText {width:60%;}    
+
+}

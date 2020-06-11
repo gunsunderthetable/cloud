@@ -1,0 +1,37 @@
+/* 
+    Document   : ie8
+    Created on : 27-Feb-2014, 16:32:10
+    Author     : User
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+
+#mainNav ul a {
+    font-size:12px;
+    padding:0 11px;
+}
+
+.flex-opacity-wrap {
+    background: url(../images/slider-opacity-mask.png) no-repeat top left;
+    width:366px;
+    height:400px;
+    top:44px;
+}
+.flex-caption {
+    font-size:18px;
+    font-weight:bold;
+}
+.flexslider p span.caption-heading {
+    font-size:32px;
+    font-weight:bold;
+    padding:20px 20px 20px 30px;
+    color:white;
+    text-transform:uppercase;
+    line-height:1.1;
+    width:350px;
+    height:44px;
+    margin:10% 0 0 -60px;
+    background: url(../images/slider-caption-back.png) no-repeat top right;
+}

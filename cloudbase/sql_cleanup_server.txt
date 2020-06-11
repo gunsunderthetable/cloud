@@ -1,0 +1,50 @@
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€œ', '“');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€', '”');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€™', '’');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€˜', '‘');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€”', '–');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€“', '—');
+UPDATE SiteTree SET Content = REPLACE(Content, 'â€¢', '-');
+UPDATE SiteTree SET Content = REPLACE(Content, 'Â', ' ');
+
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€œ', '“');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€', '”');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€™', '’');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€˜', '‘');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€”', '–');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€“', '—');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'â€¢', '-');
+UPDATE SiteTree_Live SET Content = REPLACE(Content, 'Â', ' ');
+
+# INSERT INTO Customers (CustomerName, Country)
+# SELECT SupplierName, Country FROM Suppliers;
+
+UPDATE SiteTree SET ClassName = 'BlogHolder' WHERE ClassName = 'MyBlogHolder';
+UPDATE SiteTree SET ClassName = 'BlogEntry' WHERE ClassName = 'BlogArticle';
+
+UPDATE SiteTree_Live SET ClassName = 'BlogHolder' WHERE ClassName = 'MyBlogHolder';
+UPDATE SiteTree_Live SET ClassName = 'BlogEntry' WHERE ClassName = 'BlogArticle';
+
+Calendar 
+CalendarEvent (Location)
+CalendarDateTime (StartDate StartTime EndDate EndTime EventId)
+\ sort out blog images 
+
+#UPDATE BlogEntry for images like on the Gary Davy site
+
+#on the server
+UPDATE
+    BlogEntry BE,
+    BlogArticle BA
+SET
+    BE.BlogImageID = BA.BlogImageID
+WHERE
+    BE.ID = BA.ID
+#local localhost
+UPDATE
+    blogentry BE,
+    blogarticle BA
+SET
+    BE.BlogImageID = BA.BlogImageID
+WHERE
+    BE.ID = BA.ID
